@@ -306,7 +306,84 @@
     right: -5px;
   }
   /* workflow-end */
-  
+  /* features-start */
+  .features {
+    margin-top: 120px;
+  }
+  .features {
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+  .features__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .features__list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .features .title-block {
+    
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .features__header {
+    display: flex;
+    align-items: center;
+  }
+  .features__header-img {
+    width: 120px;
+    height: 120px;
+  }
+  .features__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 80px;
+    width: 100%;
+    padding-left: 10px;
+  }
+  .features__title {
+    padding: 20px;
+    line-height: 30px;
+  }
+  .features__text {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+    padding: 40px;
+  }
+  .features__text {
+    padding: 40px;
+  }
+  .features__decoration {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+  }
+  .feature {
+    width: 520px;
+    background: #ffffff;
+    box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+    position: relative;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  .feature {
+    width: 320px;
+    height: 290px;
+    margin: 0;
+  }
+  .feature:first-child {
+    margin-top: 0;
+  }
+  .feature:nth-child(2) {
+    margin-top: 40px;
+  }
+  .feature:nth-child(3) {
+    margin-top: 80px;
+  }
+  /* features-end */
   /* Frontsize */
   @font-face{
     src:url(../fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf);
