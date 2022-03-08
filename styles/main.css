@@ -1,0 +1,349 @@
+ /* pagenav-start */
+ .page-header {
+    display: flex;
+    padding-left: 80px;
+  }
+.page-header {
+  width: 1120px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  padding-left: 0;
+  }
+.page-header__navigation {
+  margin-left: auto;
+  display: flex;
+  width: 540px;
+  justify-content: flex-start;
+}
+.page-header__upload-btn {
+  font-weight: 600;
+  width: 180px;
+  font-size: 14px;
+  line-height: 50px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+  margin-left: 20px;
+  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+  background: #1968fc;
+  box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+}
+.page-header__upload-btn:hover {
+  opacity: 0.3;
+}
+.logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo__img {
+    width: 50px;
+    height: 50px;
+  }
+  .logo__name {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    color: #1968fc;
+    background-attachment: fixed;
+  }
+  .nav-list__item {
+    font-size: 14px;
+    line-height: 50px;
+    color: #000000;
+    flex-shrink: 0;
+    display: inline-block;
+    padding: 0 30px;
+    text-decoration: none;
+  }
+  .nav-list__item:hover{
+    opacity: 0.3;
+  }
+  .headline {
+    position: relative;
+    margin-bottom: 99px;
+    margin-top: 118px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .headline {
+    width: 1120px;
+    margin: auto;
+    flex-direction: row;
+    margin-top: 150px;
+    position: relative;
+  }
+  .headline__content {
+    width: 480px;
+    margin: 0 auto;
+    flex-shrink: 0;
+    margin-bottom: 80px;
+  }
+  .headline__content {
+    width: 600px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .headline__title {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 1px;
+  }
+  .headline__description {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 20px;
+  }
+  .headline__upload-btn {
+    width: 300px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    background: #1968fc;
+    box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+    border: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+    margin-top: 40px;
+  }
+  .headline__upload-btn:hover{
+    opacity: 0.3;
+  }
+  .headline__img {
+    width: 599px;
+    height: 502px;
+  }
+  .headline__img {
+    margin-left: 0;
+    right: 0;
+    position: absolute;
+    top: 50px;
+  }
+  /* pagenav-end */
+  /* reviews-start */
+  .reviews {
+    padding-top: 51px;
+    margin-bottom: 120px;
+  }
+  .reviews {
+    width: 1120px;
+    margin: auto;
+    padding: 0;
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .review {
+    width: 540px;
+    height: 280px;
+    left: 50px;
+    top: 1230px;
+    background: #ffffff;
+    filter: drop-shadow(0px 20px 60px rgba(25, 104, 252, 0.1));
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 50px;
+  }
+  .review {
+    margin: 0;
+  }
+  .review:first-child {
+    margin-top: 0;
+  }
+  .review__main-info {
+    display: flex;
+    position: relative;
+  }
+  .review__photo {
+    width: 100px;
+    height: 100px;
+  }
+  .review__name {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .review__position {
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
+  }
+  .review__picture {
+    width: 80px;
+    height: 65px;
+  }
+  .review__text {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+  }
+  .review__about-autor {
+    margin-left: 20px;
+    width: 340px;
+    flex-shrink: 0;
+  }
+  .review__picture {
+    position: absolute;
+    right: -8px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  /* reviews-end */
+  /* workflow-start */
+  .workflow {
+    margin: 0 auto;
+    width: 520px;
+  }
+  .workflow {
+    width: 1120px;
+    margin-top: 120px;
+  }
+  .workflow-all-steps {
+    display: flex;
+    justify-content: space-between;
+  }
+  .workflow-step {
+    background: #ffffff;
+    box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+    width: 100%;
+    height: 180px;
+    padding: 40px;
+    position: relative;
+    margin-top: 40px;
+  }
+  .workflow-step {
+    width: 320px;
+    height: 220px;
+  }
+  /* Split layout */
+  .workflow-step:first-child {
+    margin-top: 0;
+  }
+  .workflow-step:nth-child(2) {
+    margin-top: 40px;
+  }
+  .workflow-step:nth-child(3) {
+    margin-top: 80px;
+  }
+  /* ----- */
+  .workflow-step__dashed-line {
+    border-left: 2px dashed #1968fc;
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    top: -36px;
+    left: 59px;
+  }
+  .workflow-step__dashed-line {
+    height: 1px;
+    width: 70px;
+    border-top: 2px dashed #1968fc;
+    top: 70px;
+    left: -75px;
+  }
+  .workflow-step__header {
+    display: flex;
+  }
+  .workflow-step__title-block {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  /* Letter */
+  .workflow-step__subtitle {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  .workflow-step__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #1967fa;
+  }
+  .workflow-step__icon {
+    max-width: 100%;
+    align-self: flex-start;
+    flex-shrink: 0;
+  }
+  .workflow-step__text {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .workflow-step__decoration {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+  }
+  /* workflow-end */
+  
+  /* Frontsize */
+  @font-face{
+    src:url(../fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf);
+    font-family: Mulish;
+  }
+   /* Index*/
+  html {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    color: #11223f;
+    /* font-family: Mulish; */
+  }
+  .page {
+    max-width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .background-section {
+    background: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
+  }
+  .title {
+    font-size: 30px;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .title-block {
+    margin-bottom: 48px;
+  }
+  .title-line {
+    width: 80px;
+    height: 2px;
+    background: #1968fc;
+    box-shadow: 0px 2px 0px #d1e1fe;
+    margin-top: 10px;
+  }
